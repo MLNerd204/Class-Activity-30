@@ -3,18 +3,20 @@
 
 #include <string>
 
+using namespace std;
+
 class TextBox {
 private:
-    std::string value;
+    string value;
     
 public:
     TextBox();
 
-    explicit TextBox(const std::string& str);
+    explicit TextBox(const string& str);
 
-    std::string getValue() const;
+    string getValue() const;
 
-    void setValue(const std::string& str);
+    void setValue(const string& str);
 
     void display() const;
 };
