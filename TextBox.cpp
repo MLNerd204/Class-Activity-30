@@ -15,7 +15,6 @@ string TextBox::getValue() const {
     return value;
 }
 
-// Setter for the value attribute
 void TextBox::setValue(const string& str) {
     value=str;
 }
